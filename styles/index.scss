@@ -21,20 +21,7 @@
         }
     }
 }
-
-@media screen and (max-width:485px) {
-    .head{
-        @apply w-3/4;
-        .js{
-            @apply text-6xl -mt-36;
-        }
-        .name{
-            @apply text-3xl mt-6;
-        }
-        .h1{
-            @apply text-3xl;
-        }
-    }
-    
-    
+.header-font{
+    width: 80vw;
+    font-size: clamp(2rem, 7vw, 10rem);
 }

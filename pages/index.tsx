@@ -20,14 +20,12 @@ export default function Home() {
             <button className="action-btn">Ping Me</button>
           </div>
         </nav>
-        <div className="flex flex-wrap ml-12 h-80 w-3/4 md:4/5">
-          <span className="text-3xl text-purple-300 self-end ">Hi, I'm </span>
-          <p className="text-8xl text-white font-bold p-0 self-end">
-            Rohit Singh
+        <div className=" ml-12 mt-16 ">
+          <p className="header-font font-bold">
+            <span className="opacity-50">Hi,</span> I am{" "}
+            <span className="text-blue-900">Rohit Singh</span>, A JavaScript
+            Developer
           </p>
-          <span className="text-7xl text-gray-300 mt-8">
-            A JavaScript Developer
-          </span>
         </div>
 
         <div className="placeholder flex justify-center mt-36">
