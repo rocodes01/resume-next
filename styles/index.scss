@@ -4,6 +4,11 @@
 
 .nav{
     @apply h-16 flex justify-between items-center mx-12 ;
+
+    .logo{
+        @apply text-3xl font-extrabold font-mono cursor-pointer hover:text-purple-900;
+
+    }
     &-items{
         @apply flex justify-end w-4/5;
         &--link{
@@ -23,5 +28,5 @@
 }
 .header-font{
     width: 80vw;
-    font-size: clamp(2rem, 7vw, 10rem);
+    font-size: clamp(2rem, 7.5vw, 10rem);
 }

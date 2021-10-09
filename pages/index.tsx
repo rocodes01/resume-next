@@ -1,4 +1,5 @@
 import Head from "next/head";
+import Contact from "../Components/Contact/Contact";
 
 export default function Home() {
   return (
@@ -14,11 +15,10 @@ export default function Home() {
           <div className="nav-items hidden">
             <span className="nav-items--link">Projects</span>
             <span className="nav-items--link">About</span>
-            <span className="nav-items--link">home</span>
           </div>
-          <div className="action">
+          {/* <div className="action">
             <button className="action-btn">Ping Me</button>
-          </div>
+          </div> */}
         </nav>
         <div className=" ml-12 mt-16 ">
           <p className="header-font font-bold">
@@ -27,15 +27,16 @@ export default function Home() {
             Developer
           </p>
         </div>
+      </main>
 
-        <div className="placeholder flex justify-center mt-36">
-          <h1 className="text-4xl font-bold animate-pulse">
+      <footer className="">
+        <div className="absolute bottom-4 w-full text-center">
+          <h1 className="text-3xl font-bold animate-pulse">
             Rest Coming Up...
           </h1>
         </div>
-      </main>
-
-      <footer className=""></footer>
+      </footer>
+      <Contact />
     </div>
   );
 }
