@@ -39,7 +39,7 @@ const Modal = ({ title, desc, footer, onClose }: Props) => {
           />
           <button
             type="submit"
-            className="bg-purple-400 p-4 rounded flex items-center h-10 my-2 self-end text-white"
+            className="bg-purple-400 bg-opacity-100 p-4 rounded flex items-center h-10 my-2 self-end text-white"
           >
             send
           </button>

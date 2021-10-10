@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import Image from "next/image";
 import contact from "../../public/images/message.png";
-import Modal from "../Modal/Modal";
+import Modal from "../Modal/Index";
 interface Props {}
 
 const Contact = (props: Props) => {

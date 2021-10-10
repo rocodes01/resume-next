@@ -1,5 +1,5 @@
 import Head from "next/head";
-import Contact from "../Components/Contact/Contact";
+import Contact from "../Components/Contact/Index";
 
 export default function Home() {
   return (
