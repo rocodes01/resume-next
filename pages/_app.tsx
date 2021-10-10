@@ -1,5 +1,6 @@
 import "tailwindcss/tailwind.css";
 import "../styles/index.scss";
+import "../styles/card.scss";
 interface Props {
   Component: any;
   pageProps: any;

@@ -9,7 +9,7 @@ const Contact = (props: Props) => {
   return (
     <>
       <div
-        className="absolute right-8 bottom-8 animate-bounce"
+        className="fixed right-8 bottom-8 animate-bounce"
         onClick={() => setShow(true)}
       >
         <Image

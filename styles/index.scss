@@ -1,9 +1,11 @@
 .app{
-@apply bg-gradient-to-t from-purple-400 to-purple-700 min-h-screen;
+@apply bg-gradient-to-t from-purple-400 to-purple-700;
+min-height: 100vh;
 }
 
 .nav{
-    @apply h-16 flex justify-between items-center mx-12 ;
+    @apply flex justify-between items-center mx-12;
+    height: 10vh;
 
     .logo{
         @apply text-3xl font-extrabold font-mono cursor-pointer hover:text-purple-900;
@@ -26,7 +28,13 @@
         }
     }
 }
-.header-font{
-    width: 80vw;
-    font-size: clamp(2rem, 7.5vw, 10rem);
+.hero{
+    height: 80vh;
+    .header-font{
+        width: 80vw;
+        font-size: clamp(2rem, 7.5vw, 10rem);
+    }
+}
+.scroll{
+    height: 10vh;
 }

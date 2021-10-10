@@ -1,0 +1,22 @@
+.card{
+    min-height: 50vh;
+    background: url('../public/images/webchef.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    &-body{
+        min-height: inherit;
+        width: 100%;
+        backdrop-filter: blur(3px);
+        h1{
+        @apply px-3;
+    }
+    h3{
+            @apply px-3;
+
+        }
+    }
+    &-body:hover{
+        
+        backdrop-filter: invert(.4);
+    }
+}
