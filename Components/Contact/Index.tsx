@@ -8,16 +8,12 @@ const Contact = (props: Props) => {
   const [show, setShow] = useState<boolean>(false);
   return (
     <>
-      <div
-        className="fixed right-8 bottom-8 animate-bounce"
-        onClick={() => setShow(true)}
-      >
+      <div className="fixed right-8 bottom-8" onClick={() => setShow(!show)}>
         <Image
           src={contact}
           alt="Picture of the author"
           width={50}
           height={50}
-          className=""
         />
       </div>
       {show && (

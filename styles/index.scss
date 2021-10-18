@@ -1,3 +1,26 @@
+*{
+    ::-webkit-scrollbar {
+        width: 10px;
+      }
+      
+      /* Track */
+      ::-webkit-scrollbar-track {
+        border-radius: 5px;
+        background: content-box radial-gradient(rgb(140, 20, 220), rgba(142, 57, 221, 0.377));
+      }
+       
+      /* Handle */
+      ::-webkit-scrollbar-thumb {
+        background: rgb(66, 3, 109); 
+        border-radius: 5px;
+      }
+      
+      /* Handle on hover */
+      ::-webkit-scrollbar-thumb:hover {
+        background: #350097; 
+      }
+}
+
 .app{
 @apply bg-gradient-to-t from-purple-400 to-purple-700;
 min-height: 100vh;
@@ -32,9 +55,18 @@ min-height: 100vh;
     height: 80vh;
     .header-font{
         width: 80vw;
-        font-size: clamp(2rem, 7.5vw, 10rem);
+        font-size: clamp(3.8rem, 7.5vw, 10rem);
     }
 }
 .scroll{
+    @apply flex justify-center;
     height: 10vh;
+    text-align: center;
+    margin:0 auto;
+    &>p{
+        @apply font-semibold rotate-90 text-xl mr-20;
+    }
 }
+
+
+

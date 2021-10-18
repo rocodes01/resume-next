@@ -9,10 +9,7 @@ interface Props {
 
 const Modal = ({ title, desc, footer, onClose }: Props) => {
   return (
-    <div
-      className="w-screen h-screen bg-gray-300 bg-opacity-50 absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 flex justify-center items-center"
-      onClick={() => onClose()}
-    >
+    <div className=" fixed right-8 bottom-24 " onClick={() => onClose()}>
       <div
         className=" bg-white rounded-xl p-3"
         onClick={(e) => {
